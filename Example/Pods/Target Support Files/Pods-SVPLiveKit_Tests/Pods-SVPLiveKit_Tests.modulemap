@@ -1,0 +1,6 @@
+framework module Pods_SVPLiveKit_Tests {
+  umbrella header "Pods-SVPLiveKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		20990412B4273ABA2A16508D /* Pods-SVPLiveKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVPLiveKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVPLiveKit_Example/Pods-SVPLiveKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		398D90FB703C3DF8835C4761 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		398D90FB703C3DF8835C4761 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		411E9ACE66C6B05AA0E14710 /* Pods-SVPLiveKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVPLiveKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVPLiveKit_Tests/Pods-SVPLiveKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SVPLiveKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVPLiveKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		943EEB9DFA91CE65E56CF394 /* Pods-SVPLiveKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVPLiveKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVPLiveKit_Example/Pods-SVPLiveKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B38B211287C151734182245 /* SVPLiveKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SVPLiveKit.podspec; path = ../SVPLiveKit.podspec; sourceTree = "<group>"; };
+		9B38B211287C151734182245 /* SVPLiveKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SVPLiveKit.podspec; path = ../SVPLiveKit.podspec; sourceTree = "<group>"; };
 		A0C02D04E10DEB62E2BC989A /* Pods_SVPLiveKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVPLiveKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA364E8D321E11741D4CB1CF /* Pods_SVPLiveKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVPLiveKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C02EF968D798A68DCE091EDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C02EF968D798A68DCE091EDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qianjing123;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M89ZUC2KA2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,9 +536,11 @@
 			baseConfigurationReference = 20990412B4273ABA2A16508D /* Pods-SVPLiveKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M89ZUC2KA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVPLiveKit/SVPLiveKit-Prefix.pch";
 				INFOPLIST_FILE = "SVPLiveKit/SVPLiveKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +553,11 @@
 			baseConfigurationReference = 943EEB9DFA91CE65E56CF394 /* Pods-SVPLiveKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M89ZUC2KA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVPLiveKit/SVPLiveKit-Prefix.pch";
 				INFOPLIST_FILE = "SVPLiveKit/SVPLiveKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

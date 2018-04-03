@@ -1,0 +1,6 @@
+framework module SVPLiveKit {
+  umbrella header "SVPLiveKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

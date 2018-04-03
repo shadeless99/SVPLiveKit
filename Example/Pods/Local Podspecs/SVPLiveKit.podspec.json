@@ -1,0 +1,22 @@
+{
+  "name": "SVPLiveKit",
+  "version": "0.1.1",
+  "summary": "A Kit for capturing video and audio data.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qianjing123/SVPLiveKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shadeless99": "gyq19900513@126.com"
+  },
+  "source": {
+    "git": "https://github.com/shadeless99/SVPLiveKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SVPLiveKit/Classes/**/*"
+}
