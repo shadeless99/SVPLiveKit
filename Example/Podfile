@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SVPLiveKit_Example' do
+  pod 'SVPLiveKit', :path => '../'
+
+  target 'SVPLiveKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
