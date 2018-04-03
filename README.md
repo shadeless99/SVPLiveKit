@@ -1,6 +1,6 @@
 # SVPLiveKit
 
-[![CI Status](http://img.shields.io/travis/qianjing123/SVPLiveKit.svg?style=flat)](https://travis-ci.org/qianjing123/SVPLiveKit)
+[![CI Status](http://img.shields.io/travis/shadeless99/SVPLiveKit.svg?style=flat)](https://travis-ci.org/shadeless99/SVPLiveKit)
 [![Version](https://img.shields.io/cocoapods/v/SVPLiveKit.svg?style=flat)](http://cocoapods.org/pods/SVPLiveKit)
 [![License](https://img.shields.io/cocoapods/l/SVPLiveKit.svg?style=flat)](http://cocoapods.org/pods/SVPLiveKit)
 [![Platform](https://img.shields.io/cocoapods/p/SVPLiveKit.svg?style=flat)](http://cocoapods.org/pods/SVPLiveKit)
@@ -22,7 +22,7 @@ pod 'SVPLiveKit'
 
 ## Author
 
-qianjing123, yongqing3@staff.sina.com.cn
+shadeless99, gyq19900513@126.com
 
 ## License
 

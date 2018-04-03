@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SVPLiveKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SVPLiveKit.'
+  s.version          = '0.1.1'
+  s.summary          = 'A Kit for capturing video and audio data.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/qianjing123/SVPLiveKit'
+  s.homepage         = 'https://github.com/shadeless99/SVPLiveKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'qianjing123' => 'yongqing3@staff.sina.com.cn' }
-  s.source           = { :git => 'https://github.com/qianjing123/SVPLiveKit.git', :tag => s.version.to_s }
+  s.author           = { 'shadeless99' => 'gyq19900513@126.com' }
+  s.source           = { :git => 'https://github.com/shadeless99/SVPLiveKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
