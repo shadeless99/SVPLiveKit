@@ -22,7 +22,7 @@ pod 'SVPLiveKit'
 
 ## Author
 
-shadeless99, gyq19900513@126.com
+shadeless99, shadeless@126.com
 
 ## License
 

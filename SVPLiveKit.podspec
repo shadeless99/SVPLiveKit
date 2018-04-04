@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shadeless99/SVPLiveKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shadeless99' => 'gyq19900513@126.com' }
+  s.author           = { 'shadeless99' => 'shadeless@126.com' }
   s.source           = { :git => 'https://github.com/shadeless99/SVPLiveKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
